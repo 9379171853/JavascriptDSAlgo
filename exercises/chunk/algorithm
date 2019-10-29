@@ -1,0 +1,15 @@
+create empty array to hold called "chunked"
+For each element in the unchuked array.
+    retrieve thelast element 'chunked'
+    if last element does not exit, or if its length is eqal to chunk size
+      push a new into 'chunked' with the current element.
+    else add the current element into the chunk.  
+
+
+
+    //second method
+create empty 'chunked ' array
+create index start at 0
+while index is less than array.length
+    push a slice of length size from array into chunked
+    Add size to 'index'
